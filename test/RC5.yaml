@@ -1,0 +1,17 @@
+blocks:
+  - blockName: test
+    aus:
+      - auName: Introduction
+        dirPath: test/introduction-1
+        slides:
+          - slideTitle: 01 slide
+            type: markdown
+            filepath: test/introduction-1/01-slide.md
+        teamSSOEnabled: false
+        ksats: []
+    blockDescription: ""
+courseId: https://test
+courseTitle: test
+courseDescription: A course for testing rapid cmi5 and showing the different
+  courses rapid cmi5 can create.
+rc5Version: 0.0.1
