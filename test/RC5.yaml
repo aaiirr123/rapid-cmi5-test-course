@@ -32,6 +32,16 @@ blocks:
             type: markdown
             filepath: test/the-visual-editor/slide-4.md
             content: ""
+          - display: "# Slide"
+            slideTitle: Slide 5
+            type: markdown
+            filepath: test/the-visual-editor/slide-5.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Slide 6
+            type: markdown
+            filepath: test/the-visual-editor/slide-6.md
+            content: ""
         rangeosScenarioName: Demo Auto Graders - AT
         rangeosScenarioUUID: 772e9281-59e8-4867-be35-4c147caa1ca6
         promptClassId: false

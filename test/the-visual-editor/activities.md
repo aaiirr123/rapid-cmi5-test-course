@@ -1,9 +1,5 @@
 # Activities&#x20;
 
-
-
-
-
 ## Quizzes&#x20;
 
 :::quiz
@@ -88,13 +84,7 @@
 ```
 :::
 
-
-
-
-
 ## Capture the flags
-
-
 
 :::ctf
 {
@@ -140,8 +130,6 @@
 ]
 }
 :::
-
-##
 
 ## Individual Training Scenarios
 
