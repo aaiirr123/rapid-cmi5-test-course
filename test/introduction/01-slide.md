@@ -94,12 +94,7 @@ Optional statements:
 
 ## SCORM vs CMI5
 
-| Feature          | SCORM | CMI5 |
-| ---------------- | ----- | ---- |
-| Mobile Support   | ❌     | ✅    |
-| Offline Tracking | ❌     | ✅    |
-| Modern API       | ❌     | ✅    |
-| Flexible Data    | ❌     | ✅    |
+<table class="rc5-table"><thead><tr><th style="background-color: transparent">Feature</th><th style="background-color: transparent">SCORM</th><th style="background-color: transparent">CMI5</th></tr></thead><tbody><tr><td style="background-color: transparent">Mobile Support</td><td style="background-color: transparent">❌</td><td style="background-color: transparent">✅</td></tr><tr><td style="background-color: transparent">Offline Tracking</td><td style="background-color: transparent">❌</td><td style="background-color: transparent">✅</td></tr><tr><td style="background-color: transparent">Modern API</td><td style="background-color: transparent">❌</td><td style="background-color: transparent">✅</td></tr><tr><td style="background-color: transparent">Flexible Data</td><td style="background-color: transparent">❌</td><td style="background-color: transparent">✅</td></tr></tbody></table>
 
 ***
 

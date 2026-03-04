@@ -2,11 +2,39 @@ blocks:
   - blockName: test
     aus:
       - auName: Introduction
-        dirPath: test/introduction-1
+        dirPath: test/introduction
         slides:
           - slideTitle: 01 slide
             type: markdown
-            filepath: test/introduction-1/01-slide.md
+            filepath: test/introduction/01-slide.md
+            content: ""
+        teamSSOEnabled: false
+        ksats: []
+      - auName: The Visual Editor
+        dirPath: test/the-visual-editor
+        slides:
+          - slideTitle: Basic Markdown
+            type: markdown
+            filepath: test/the-visual-editor/basic-markdown.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Admonitions
+            type: markdown
+            filepath: test/the-visual-editor/admonitions.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Activities
+            type: markdown
+            filepath: test/the-visual-editor/activities.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Slide 4
+            type: markdown
+            filepath: test/the-visual-editor/slide-4.md
+            content: ""
+        rangeosScenarioName: Demo Auto Graders - AT
+        rangeosScenarioUUID: 772e9281-59e8-4867-be35-4c147caa1ca6
+        promptClassId: false
         teamSSOEnabled: false
         ksats: []
     blockDescription: ""
