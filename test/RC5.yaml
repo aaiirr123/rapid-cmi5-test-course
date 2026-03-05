@@ -95,6 +95,28 @@ blocks:
             content: ""
         teamSSOEnabled: false
         ksats: []
+      - auName: Example Course
+        dirPath: test/example-course
+        slides:
+          - slideTitle: Reverse Engineering Basics
+            type: markdown
+            filepath: test/example-course/reverse-engineering-basics.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Knowledge Check
+            type: markdown
+            filepath: test/example-course/knowledge-check.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Slide 3
+            type: markdown
+            filepath: test/example-course/slide-3.md
+            content: ""
+        teamSSOEnabled: false
+        ksats: []
+        lessonTheme:
+          defaultAlignment: left
+          contentWidth: medium
     blockDescription: ""
 courseId: https://test
 courseTitle: test
