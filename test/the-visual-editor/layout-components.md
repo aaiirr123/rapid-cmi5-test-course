@@ -197,10 +197,6 @@ Tab 1 Content Goes Here
 <img width="225" height="327" alt="1" id="20260305095138-d8b4a48b-2a16-4c60-95e3-b30ecd897ec4" src="./Assets/Images/1.png" />
 :::
 ::::
-
-
-
-
 :::::
 
 ::::tabContent{title="Example"}
@@ -208,13 +204,9 @@ Tab 2 Content Goes Here
 
 Examples help reinforce concepts.
 
-
-
 :::tip{title="Tip" collapse="closed"}
 These will help keep students engaged... hopefully
 :::
-
-
 ::::
 
 :::tabContent{title="Details"}

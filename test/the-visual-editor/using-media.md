@@ -65,10 +65,10 @@ Images are useful for **diagrams, screenshots, illustrations, and branding**.
 ### Example
 
 <img alt="RangeOS_Logo (1)" id="20260304183445-1fc5dc56-90ec-4a92-a70c-d24a9e5b6242" src="./Assets/Images/RangeOS_Logo (1).png" />
+
 :::imageText{imageId="20260304183445-1fc5dc56-90ec-4a92-a70c-d24a9e5b6242" x="14.1875" y="64.4375"}
 <span style="background-color: #0076ba;color: #ffffff;">  **You Can Also Label an Image!**  </span>
 :::
-
 
 ***
 
