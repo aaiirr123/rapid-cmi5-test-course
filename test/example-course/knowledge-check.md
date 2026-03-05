@@ -1,7 +1,8 @@
-::::layout{justifyContent="center" alignItems="flex-start"}
+:::layout{justifyContent="center" alignItems="flex-start"}
 # <span style="color: #004d7f;">Knowledge Check</span>
 
 Test your understanding of reverse engineering fundamentals. You need **80%** to pass.
+:::
 
 :::quiz
 ```json
@@ -84,4 +85,3 @@ Test your understanding of reverse engineering fundamentals. You need **80%** to
 }
 ```
 :::
-::::
