@@ -4,15 +4,45 @@ blocks:
       - auName: Introduction
         dirPath: test/introduction
         slides:
-          - slideTitle: 01 slide
+          - display: "# Slide"
+            slideTitle: What Is Rapid CMI5?
             type: markdown
-            filepath: test/introduction/01-slide.md
+            filepath: test/introduction/what-is-rapid-cmi5.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Desktop vs. Web
+            type: markdown
+            filepath: test/introduction/desktop-vs-web.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Rapid CMI5 Player
+            type: markdown
+            filepath: test/introduction/rapid-cmi5-player.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Setting Up Desktop Version
+            type: markdown
+            filepath: test/introduction/setting-up-desktop-version.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Using Git
+            type: markdown
+            filepath: test/introduction/using-git.md
+            content: ""
+          - slideTitle: What Is CMI5?
+            type: markdown
+            filepath: test/introduction/what-is-cmi5.md
             content: ""
         teamSSOEnabled: false
         ksats: []
       - auName: The Visual Editor
         dirPath: test/the-visual-editor
         slides:
+          - display: "# Slide"
+            slideTitle: The Basics
+            type: markdown
+            filepath: test/the-visual-editor/the-basics.md
+            content: ""
           - slideTitle: Basic Markdown
             type: markdown
             filepath: test/the-visual-editor/basic-markdown.md
@@ -28,23 +58,41 @@ blocks:
             filepath: test/the-visual-editor/activities.md
             content: ""
           - display: "# Slide"
-            slideTitle: Slide 4
+            slideTitle: Text FX and Animation
             type: markdown
-            filepath: test/the-visual-editor/slide-4.md
+            filepath: test/the-visual-editor/text-fx-and-animation.md
             content: ""
           - display: "# Slide"
-            slideTitle: Slide 5
+            slideTitle: Layout Components
             type: markdown
-            filepath: test/the-visual-editor/slide-5.md
+            filepath: test/the-visual-editor/layout-components.md
             content: ""
           - display: "# Slide"
-            slideTitle: Slide 6
+            slideTitle: Using Media
             type: markdown
-            filepath: test/the-visual-editor/slide-6.md
+            filepath: test/the-visual-editor/using-media.md
             content: ""
         rangeosScenarioName: Demo Auto Graders - AT
         rangeosScenarioUUID: 772e9281-59e8-4867-be35-4c147caa1ca6
         promptClassId: false
+        teamSSOEnabled: false
+        ksats: []
+      - auName: The File Editor
+        dirPath: test/the-file-editor
+        slides:
+          - slideTitle: Slide 1
+            type: markdown
+            filepath: test/the-file-editor/slide-1.md
+            content: ""
+        teamSSOEnabled: false
+        ksats: []
+      - auName: The Git Editor
+        dirPath: test/the-git-editor
+        slides:
+          - slideTitle: Slide 1
+            type: markdown
+            filepath: test/the-git-editor/slide-1.md
+            content: ""
         teamSSOEnabled: false
         ksats: []
     blockDescription: ""

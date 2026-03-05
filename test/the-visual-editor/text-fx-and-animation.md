@@ -2,7 +2,7 @@
 animations:
   - id: anim_1772664208445_1np5oykfz
     order: 1
-    targetNodeKey: "2715"
+    targetNodeKey: "4226"
     directiveId: anim_1772664208433_o35aum
     targetLabel: "Toc-heading: Animation: Fly In"
     entranceEffect: flyIn
@@ -12,7 +12,7 @@ animations:
     enabled: true
   - id: anim_1772664280619_68hbc6yri
     order: 2
-    targetNodeKey: "2714"
+    targetNodeKey: "4225"
     directiveId: anim_1772664280609_yb6a53
     targetLabel: "Paragraph: Animation: Appear"
     entranceEffect: appear
@@ -28,7 +28,7 @@ animations:
 
 A user can add various effects to text to highlight importance or engage users
 
-:fx[### Here is one example]{type="bracket" color="#0076ba"}
+:fx[Here is one example]{type="bracket" color="#0076ba"}
 
 :fx[Cross outs are possible too]{type="crossed-off" color="#ee230c"}\\
 
