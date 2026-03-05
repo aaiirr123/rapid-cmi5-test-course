@@ -1,10 +1,9 @@
 :::layout{justifyContent="center" alignItems="flex-start"}
-## Capture the Flag
+# <span style="color: #004d7f;">Capture the Flag</span>
 
 Please Use the lab environment to complete the following Capture the Flag
 :::
 
-::::layout{justifyContent="center" alignItems="flex-start"}
 :::ctf
 ```json
 {
@@ -51,4 +50,3 @@ Please Use the lab environment to complete the following Capture the Flag
 }
 ```
 :::
-::::

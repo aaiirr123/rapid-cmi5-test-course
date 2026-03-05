@@ -53,9 +53,19 @@ blocks:
             filepath: test/the-visual-editor/admonitions.md
             content: ""
           - display: "# Slide"
-            slideTitle: Activities
+            slideTitle: Quizzes
             type: markdown
-            filepath: test/the-visual-editor/activities.md
+            filepath: test/the-visual-editor/quizzes.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: CTF
+            type: markdown
+            filepath: test/the-visual-editor/ctf.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Scenarios
+            type: markdown
+            filepath: test/the-visual-editor/scenarios.md
             content: ""
           - display: "# Slide"
             slideTitle: Text FX and Animation
@@ -79,24 +89,6 @@ blocks:
         ksats: []
         lessonTheme:
           contentWidth: medium
-      - auName: The File Editor
-        dirPath: test/the-file-editor
-        slides:
-          - slideTitle: Slide 1
-            type: markdown
-            filepath: test/the-file-editor/slide-1.md
-            content: ""
-        teamSSOEnabled: false
-        ksats: []
-      - auName: The Git Editor
-        dirPath: test/the-git-editor
-        slides:
-          - slideTitle: Slide 1
-            type: markdown
-            filepath: test/the-git-editor/slide-1.md
-            content: ""
-        teamSSOEnabled: false
-        ksats: []
       - auName: Example Course
         dirPath: test/example-course
         slides:
@@ -119,6 +111,7 @@ blocks:
         lessonTheme:
           defaultAlignment: left
           contentWidth: medium
+          blockPadding: medium
     blockDescription: ""
 courseId: https://test
 courseTitle: test

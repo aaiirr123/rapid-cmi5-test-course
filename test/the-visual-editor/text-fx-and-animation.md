@@ -2,7 +2,7 @@
 animations:
   - id: anim_1772664208445_1np5oykfz
     order: 1
-    targetNodeKey: "4827"
+    targetNodeKey: "4632"
     directiveId: anim_1772664208433_o35aum
     targetLabel: "Toc-heading: Animation: Fly In"
     entranceEffect: flyIn
@@ -12,7 +12,7 @@ animations:
     enabled: true
   - id: anim_1772664280619_68hbc6yri
     order: 2
-    targetNodeKey: "4826"
+    targetNodeKey: "4631"
     directiveId: anim_1772664280609_yb6a53
     targetLabel: "Paragraph: Animation: Appear"
     entranceEffect: appear
