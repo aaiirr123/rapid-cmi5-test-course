@@ -77,6 +77,8 @@ blocks:
         promptClassId: false
         teamSSOEnabled: false
         ksats: []
+        lessonTheme:
+          contentWidth: medium
       - auName: The File Editor
         dirPath: test/the-file-editor
         slides:
