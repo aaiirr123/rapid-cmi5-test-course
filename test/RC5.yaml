@@ -108,9 +108,9 @@ blocks:
             filepath: test/example-course/knowledge-check.md
             content: ""
           - display: "# Slide"
-            slideTitle: Slide 3
+            slideTitle: Practical Lab
             type: markdown
-            filepath: test/example-course/slide-3.md
+            filepath: test/example-course/practical-lab.md
             content: ""
         teamSSOEnabled: false
         ksats: []

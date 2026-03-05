@@ -60,8 +60,6 @@ Always run unknown binaries inside an **isolated VM or sandbox**. Never execute 
 
 RIP (Instruction Pointer) holds the address of the next instruction to execute — controlling RIP means:   :fx[   controlling the program]{type="circle" color="#ee230c"}.
 
-
-
 ::::steps{color="transparent"}
 :::stepContent{title="What is Assembly Language?"}
 Assembly language is a **low-level programming language** that closely corresponds to a computer's **machine code instructions**. Each instruction typically maps directly to a **CPU instruction**.
@@ -89,16 +87,14 @@ This stores the value `5` in register `EAX`.
 :::
 ::::
 
-
-
-
-
 ***
 
 :::layout{justifyContent="center" alignItems="flex-start"}
 ## <span style="color: #004d7f;">Finding Vulnerabilities</span>
 
 <img alt="ChatGPT Image Mar 5, 2026, 09_30_59 AM" id="20260305093125-d049a0ee-0d47-4d52-87b2-b138818b0897" src="./Assets/Images/ChatGPT Image Mar 5, 2026, 09_30_59 AM.png" />
+
+
 :::
 
 :::::accordion{style="margin: 8px 0;"}
@@ -208,3 +204,29 @@ Over 40% of beginner CTF challenges are solved with `strings` alone. Always star
 :::
 ::::
 :::::
+
+:::layout{justifyContent="center" alignItems="flex-start"}
+
+
+## <span style="color: #004d7f;">Linux Vs. Windows</span>
+:::
+
+::::gridContainer{style="margin: 4px;"}
+:::grid{textAlign="center"}
+Linux
+
+<img alt="0a0eeaa1-a7ad-4b1f-8f9e-5d6d61fbfebd_400x599" id="20260305093941-0e378beb-47b2-4e8a-be18-110feb9b3a22" src="./Assets/Images/0a0eeaa1-a7ad-4b1f-8f9e-5d6d61fbfebd_400x599.jpg" />
+:::
+
+:::grid{textAlign="center"}
+Windows
+
+<img alt="1" id="20260305094017-77bb1184-de06-477b-8b33-594e590bdadb" src="./Assets/Images/1.png" />
+:::
+::::
+
+:::layout{justifyContent="center" alignItems="flex-start"}
+## <span style="color: #004d7f;">Differences of Linux and Windows</span>
+:::
+
+<table class="rc5-table"><thead><tr><th style="background-color: transparent">Category</th><th style="background-color: transparent">Linux</th><th style="background-color: transparent">Windows</th></tr></thead><tbody><tr><td style="background-color: transparent"><strong>Executable Format</strong></td><td style="background-color: transparent"><strong>ELF (Executable and Linkable Format)</strong></td><td style="background-color: transparent"><strong>PE (Portable Executable)</strong></td></tr><tr><td style="background-color: transparent"><strong>Common File Extensions</strong></td><td style="background-color: transparent">No extension required, often none or <code>.out</code></td><td style="background-color: transparent"><code>.exe</code>, <code>.dll</code>, <code>.sys</code></td></tr><tr><td style="background-color: transparent"><strong>Binary Structure Sections</strong></td><td style="background-color: transparent"><code>.text</code>, <code>.data</code>, <code>.bss</code>, <code>.rodata</code>, <code>.plt</code>, <code>.got</code></td><td style="background-color: transparent"><code>.text</code>, <code>.data</code>, <code>.rdata</code>, <code>.idata</code>, <code>.edata</code>, <code>.rsrc</code></td></tr><tr><td style="background-color: transparent"><strong>Primary Debugger</strong></td><td style="background-color: transparent"><code>gdb</code></td><td style="background-color: transparent"><code>x64dbg</code>, <code>WinDbg</code></td></tr><tr><td style="background-color: transparent"><strong>System Call Interface</strong></td><td style="background-color: transparent">Direct <strong>syscalls</strong> using <code>syscall</code> instruction</td><td style="background-color: transparent">Mostly <strong>WinAPI</strong> calls through DLLs</td></tr><tr><td style="background-color: transparent"><strong>Common OS Libraries</strong></td><td style="background-color: transparent"><code>glibc</code>, <code>libpthread</code>, <code>libm</code></td><td style="background-color: transparent"><code>kernel32.dll</code>, <code>user32.dll</code>, <code>ntdll.dll</code></td></tr><tr><td style="background-color: transparent"><strong>Tracing Program Behavior</strong></td><td style="background-color: transparent"><code>strace</code> (syscalls), <code>ltrace</code> (library calls)</td><td style="background-color: transparent">API monitoring tools like <strong>API Monitor</strong></td></tr><tr><td style="background-color: transparent"><strong>Dynamic Linking Mechanism</strong></td><td style="background-color: transparent"><strong>PLT/GOT tables</strong></td><td style="background-color: transparent"><strong>Import Address Table (IAT)</strong></td></tr><tr><td style="background-color: transparent"><strong>Typical Reverse Engineering Tools</strong></td><td style="background-color: transparent"><code>radare2</code>, <code>gdb</code>, <code>objdump</code>, <code>readelf</code>, <code>strings</code></td><td style="background-color: transparent"><code>x64dbg</code>, <code>PE-bear</code>, <code>CFF Explorer</code>, <code>Process Hacker</code></td></tr><tr><td style="background-color: transparent"><strong>Disassemblers / Decompilers</strong></td><td style="background-color: transparent">Ghidra, IDA Pro, Binary Ninja, radare2</td><td style="background-color: transparent">Ghidra, IDA Pro, Binary Ninja</td></tr><tr><td style="background-color: transparent"><strong>Common Security Protections</strong></td><td style="background-color: transparent">ASLR, PIE, RELRO, Stack Canaries</td><td style="background-color: transparent">ASLR, DEP, Control Flow Guard</td></tr><tr><td style="background-color: transparent"><strong>Typical Reverse Engineering Targets</strong></td><td style="background-color: transparent">CTF challenges, server binaries, exploit development</td><td style="background-color: transparent">Malware, DRM protections, proprietary software</td></tr><tr><td style="background-color: transparent"><strong>Executable Inspection Commands</strong></td><td style="background-color: transparent"><code>file</code>, <code>readelf</code>, <code>objdump</code>, <code>strings</code></td><td style="background-color: transparent"><code>dumpbin</code>, PE analysis tools</td></tr><tr><td style="background-color: transparent"><strong>Process Monitoring Tools</strong></td><td style="background-color: transparent"><code>ps</code>, <code>top</code>, <code>htop</code>, <code>lsof</code></td><td style="background-color: transparent">Task Manager, Process Hacker</td></tr><tr><td style="background-color: transparent"><strong>Kernel Interaction</strong></td><td style="background-color: transparent">Direct system calls</td><td style="background-color: transparent">Layered through WinAPI → <code>ntdll</code> → kernel</td></tr><tr><td style="background-color: transparent"><strong>Binary Packing / Obfuscation</strong></td><td style="background-color: transparent">Less common, mostly in malware</td><td style="background-color: transparent">Very common (UPX, Themida, VMProtect)</td></tr><tr><td style="background-color: transparent"><strong>Learning Environment</strong></td><td style="background-color: transparent">Often used in <strong>CTF and exploit dev labs</strong></td><td style="background-color: transparent">Often used in <strong>malware analysis and software cracking</strong></td></tr></tbody></table>
