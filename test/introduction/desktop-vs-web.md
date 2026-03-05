@@ -1,30 +1,37 @@
-# Desktop Vs Web application
+# Desktop vs Web Application
 
-Rapid CMI5 has two versions
+Rapid CMI5 is available in two versions:
 
-1. Desktop Version
-2. Web Version
+1. **Desktop Application**
+2. **Web Application**
 
-## Drawbacks of the web application
+***
 
-The web version of Rapid CMI5 is limitted due to CORS.&#x20;
+## Web Application
 
-This prevents a user from hosting content on a public repository such as Github.
+### Pros
 
-It does allow for a user to have a self hosted git server which can be configured to allow rapid cmi5 git requests.
+* **No installation required** — users can access the editor directly in a browser.
+* **Built-in SSO configuration** — authentication and access to the Range Engine are already integrated.
 
-Pros of the Web Application
+### Drawbacks
 
-Users do not have to download a seperate application
+* **CORS limitations** restrict how the application can interact with external Git repositories.
+* Users **cannot directly push to many public Git hosting services** (such as GitHub) unless those services are configured to allow the requests.
+* Typically requires a **self-hosted Git server** configured to allow Rapid CMI5 requests.
 
-There is no seperate SSO configuration, its baked in
+***
 
-## Drawbacks of the Desktop Application
+## Desktop Application
 
-Pros of the Desktop Application
+### Pros
 
-Pros of the Desktop appliation&#x20;
+* **Better performance**, allowing the editor to handle **larger and more complex courses**.
+* **No CORS restrictions**, enabling direct interaction with Git repositories and other services.
+* Can **push to public Git providers** such as GitHub, GitLab, or internal repositories without special server configuration.
+* Allows **custom certificate configuration** for air-gapped or internal environments.
 
-The desktop application is much more performant and able to support much larger courses.
+### Drawbacks
 
-The desktop version is not affected by CORS, you can&#x20;
+* Requires **downloading and installing** a separate application.
+* **SSO must be configured manually** during setup.

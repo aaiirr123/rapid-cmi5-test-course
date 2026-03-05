@@ -1,17 +1,30 @@
-# Setting Up Desktop Version
+# Setting Up the Desktop Version
 
-### SSO
+## Single Sign-On (SSO)
 
-You have the option to configure SSO in order to communicate with a range engine,
+You may configure **Single Sign-On (SSO)** to enable communication with a Range Engine.
 
-this will allow you to see the various scenarios available for your course and is used when adding indvidual scenarios or team scenarios.
+When SSO is configured, Rapid CMI5 can automatically retrieve the list of available scenarios from the range. This allows you to easily add **individual** or **team-based scenarios** directly to your course.
 
-If it is not chosen, you will instead be required to write the scenario UUID and name manually.
+If SSO is **not configured**, you will need to manually enter the **scenario UUID and name** when adding scenarios.
 
-### Certificates
+***
 
-If you are using rapid cmi5 to communicate to a range or git repo which is not using a publicly trusted SSL certificate, you may upload your own
+## Certificates
 
-### Configuring Git Globally
+If Rapid CMI5 needs to communicate with a **range** or **Git repository** that uses a **non-public or self-signed SSL certificate**, you can upload your own certificate.
 
-You are able to configure git globally with your perfered author name and email as well as username and PAT which are securly saved long term so that you are not required to enter serveral times
+This allows the application to securely trust and communicate with those services.
+
+***
+
+## Configuring Git Globally
+
+Rapid CMI5 allows you to configure your **global Git settings**, including:
+
+* **Author Name**
+* **Author Email**
+* **Git Username**
+* **Personal Access Token (PAT)**
+
+These credentials are **securely stored** so that you do not need to enter them repeatedly when interacting with Git repositories.
