@@ -119,33 +119,6 @@ blocks:
         lessonTheme:
           defaultAlignment: left
           contentWidth: medium
-      - auName: test lesson 1
-        dirPath: test/test-lesson-1
-        slides:
-          - slideTitle: Slide 1
-            type: markdown
-            filepath: test/test-lesson-1/slide-1.md
-            content: ""
-          - display: "# Slide"
-            slideTitle: Slide 2
-            type: markdown
-            filepath: test/test-lesson-1/slide-2.md
-            content: ""
-          - display: "# Slide"
-            slideTitle: Slide 3
-            type: markdown
-            filepath: test/test-lesson-1/slide-3.md
-            content: ""
-          - display: "# Slide"
-            slideTitle: Slide 4
-            type: markdown
-            filepath: test/test-lesson-1/slide-4.md
-            content: ""
-        teamSSOEnabled: false
-        ksats: []
-        rangeosScenarioName: Demo Auto Graders - AT
-        rangeosScenarioUUID: 772e9281-59e8-4867-be35-4c147caa1ca6
-        promptClassId: false
     blockDescription: ""
 courseId: https://test
 courseTitle: test
