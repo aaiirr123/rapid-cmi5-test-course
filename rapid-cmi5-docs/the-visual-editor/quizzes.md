@@ -12,8 +12,6 @@ This means every quiz interaction can be tracked, analyzed, and reported across 
 
 Quizzes in Rapid CMI5 serve several important purposes:
 
-<table class="rc5-table"><thead><tr><th style="background-color: transparent">Purpose</th><th style="background-color: transparent">Description</th></tr></thead><tbody><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Confirm that learners understand the key concepts presented in the course.</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Enforce passing criteria before allowing learners to move to the next AU (Assignable Unit).</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Capture scores, completion status, and pass/fail results.</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Send detailed learning activity data to an LRS using xAPI statements.</td></tr></tbody></table>
-
 ***
 
 ### 📊 How Rapid CMI5 Tracks Quiz Activity

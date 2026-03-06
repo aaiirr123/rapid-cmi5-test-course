@@ -1,7 +1,5 @@
 # Grid Layouts
 
-
-
 ## Basic Text Grids
 
 ::::gridContainer{style="margin: 4px;"}
@@ -24,8 +22,6 @@ Aliquam porttitor nisi a est gravida, vel faucibus odio tempus. Duis ac metus di
 :::
 ::::
 
-
-
 ## Grids With Images
 
 ::::gridContainer{style="margin: 4px;"}
@@ -44,19 +40,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet dolor ut u
 :::grid
 Some more discussion around the image can also happen here.
 You are able to add in image or columns of text any way you see fit
-:::
-::::
-
-## Grids With Video
-
-::::gridContainer{style="margin: 4px;"}
-:::grid
-<video src="./Assets/Videos/Screen Recording 2026-03-04 183338.mp4" controls="true" data-video-id="d6fe6bfb-3dd1-47ed-b54b-1c1101dc1401" title="Screen Recording 2026-03-04 183338" />
-:::
-
-:::grid
-**Video Lecture**
-
-This video will help you understand the following content.
 :::
 ::::
