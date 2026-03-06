@@ -34,14 +34,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet dolor ut u
 :::grid
 **This is the image**
 
-
-
 <img alt="1_8_XcK-4JejVJIpccI8TJow" id="20260306112223-8a0914c1-af40-479b-bad0-4379261c5490" src="./Assets/Images/1_8_XcK-4JejVJIpccI8TJow.jpg" />
 
 You can even continue writing underneath your images
-:::
 
-:::grid
+***
+
 Some more discussion around the image can also happen here.
 You are able to add in image or columns of text any way you see fit
 :::
