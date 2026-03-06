@@ -34,7 +34,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet dolor ut u
 :::grid
 **This is the image**
 
-<img alt="RangeOS_Logo (1)" id="20260305210723-41e4014b-557c-40d6-acc9-22a08b697533" src="./Assets/Images/RangeOS_Logo (1).png" />You can even continue writing underneath your images
+
+
+<img alt="1_8_XcK-4JejVJIpccI8TJow" id="20260306112223-8a0914c1-af40-479b-bad0-4379261c5490" src="./Assets/Images/1_8_XcK-4JejVJIpccI8TJow.jpg" />
+
+You can even continue writing underneath your images
 :::
 
 :::grid

@@ -1,6 +1,6 @@
 # The Accordion&#x20;
 
-::::::accordion{style="margin: 4px;"}
+:::::accordion{style="margin: 4px;"}
 ::::accordionContent{title="Accordion 1 Title"}
 Accordion 1 Content Goes Here
 
@@ -19,25 +19,7 @@ Centered text using a layout box
 :::
 ::::
 
-:::::accordionContent{title="Accordion 3 Title" textAlign="center"}
+:::accordionContent{title="Accordion 3 Title" textAlign="center"}
 Accordion 3 Content Goes Here
-
-::::gridContainer{style="margin: 4px;"}
-:::grid
-Grid 1
 :::
-
-:::grid
-Grid 2
-:::
-
-:::grid
-Grid 3
-:::
-
-:::grid
-the forth column
-:::
-::::
 :::::
-::::::

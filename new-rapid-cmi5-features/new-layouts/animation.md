@@ -2,7 +2,7 @@
 animations:
   - id: anim_1772806193468_eyoxix3a1
     order: 1
-    targetNodeKey: "315"
+    targetNodeKey: "5605"
     directiveId: anim_1772806193453_13apbt
     targetLabel: "Toc-heading: Test fly in"
     entranceEffect: flyIn
@@ -12,7 +12,7 @@ animations:
     enabled: true
   - id: anim_1772806260687_l9u5iyioj
     order: 2
-    targetNodeKey: "316"
+    targetNodeKey: "5606"
     directiveId: anim_1772806260672_45o5th
     targetLabel: "Toc-heading: Testing fade in"
     entranceEffect: fadeIn
