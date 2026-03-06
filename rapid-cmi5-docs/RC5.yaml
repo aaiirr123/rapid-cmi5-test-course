@@ -1,86 +1,86 @@
 blocks:
-  - blockName: test
+  - blockName: rapid-cmi5-docs
     aus:
       - auName: Introduction
-        dirPath: test/introduction
+        dirPath: rapid-cmi5-docs/introduction
         slides:
           - display: "# Slide"
             slideTitle: What Is Rapid CMI5?
             type: markdown
-            filepath: test/introduction/what-is-rapid-cmi5.md
+            filepath: rapid-cmi5-docs/introduction/what-is-rapid-cmi5.md
             content: ""
           - display: "# Slide"
             slideTitle: Desktop vs. Web
             type: markdown
-            filepath: test/introduction/desktop-vs-web.md
+            filepath: rapid-cmi5-docs/introduction/desktop-vs-web.md
             content: ""
           - display: "# Slide"
             slideTitle: Rapid CMI5 Player
             type: markdown
-            filepath: test/introduction/rapid-cmi5-player.md
+            filepath: rapid-cmi5-docs/introduction/rapid-cmi5-player.md
             content: ""
           - display: "# Slide"
             slideTitle: Setting Up Desktop Version
             type: markdown
-            filepath: test/introduction/setting-up-desktop-version.md
+            filepath: rapid-cmi5-docs/introduction/setting-up-desktop-version.md
             content: ""
           - display: "# Slide"
             slideTitle: Using Git
             type: markdown
-            filepath: test/introduction/using-git.md
+            filepath: rapid-cmi5-docs/introduction/using-git.md
             content: ""
           - slideTitle: What Is CMI5?
             type: markdown
-            filepath: test/introduction/what-is-cmi5.md
+            filepath: rapid-cmi5-docs/introduction/what-is-cmi5.md
             content: ""
         teamSSOEnabled: false
         ksats: []
       - auName: The Visual Editor
-        dirPath: test/the-visual-editor
+        dirPath: rapid-cmi5-docs/the-visual-editor
         slides:
           - display: "# Slide"
             slideTitle: The Basics
             type: markdown
-            filepath: test/the-visual-editor/the-basics.md
+            filepath: rapid-cmi5-docs/the-visual-editor/the-basics.md
             content: ""
           - slideTitle: Basic Markdown
             type: markdown
-            filepath: test/the-visual-editor/basic-markdown.md
+            filepath: rapid-cmi5-docs/the-visual-editor/basic-markdown.md
             content: ""
           - display: "# Slide"
             slideTitle: Admonitions
             type: markdown
-            filepath: test/the-visual-editor/admonitions.md
+            filepath: rapid-cmi5-docs/the-visual-editor/admonitions.md
             content: ""
           - display: "# Slide"
             slideTitle: Quizzes
             type: markdown
-            filepath: test/the-visual-editor/quizzes.md
+            filepath: rapid-cmi5-docs/the-visual-editor/quizzes.md
             content: ""
           - display: "# Slide"
             slideTitle: CTF
             type: markdown
-            filepath: test/the-visual-editor/ctf.md
+            filepath: rapid-cmi5-docs/the-visual-editor/ctf.md
             content: ""
           - display: "# Slide"
             slideTitle: Scenarios
             type: markdown
-            filepath: test/the-visual-editor/scenarios.md
+            filepath: rapid-cmi5-docs/the-visual-editor/scenarios.md
             content: ""
           - display: "# Slide"
             slideTitle: Text FX and Animation
             type: markdown
-            filepath: test/the-visual-editor/text-fx-and-animation.md
+            filepath: rapid-cmi5-docs/the-visual-editor/text-fx-and-animation.md
             content: ""
           - display: "# Slide"
             slideTitle: Layout Components
             type: markdown
-            filepath: test/the-visual-editor/layout-components.md
+            filepath: rapid-cmi5-docs/the-visual-editor/layout-components.md
             content: ""
           - display: "# Slide"
             slideTitle: Using Media
             type: markdown
-            filepath: test/the-visual-editor/using-media.md
+            filepath: rapid-cmi5-docs/the-visual-editor/using-media.md
             content: ""
         rangeosScenarioName: Demo Auto Graders - AT
         rangeosScenarioUUID: 772e9281-59e8-4867-be35-4c147caa1ca6
@@ -90,21 +90,21 @@ blocks:
         lessonTheme:
           contentWidth: medium
       - auName: Example Course
-        dirPath: test/example-course
+        dirPath: rapid-cmi5-docs/example-course
         slides:
           - slideTitle: Reverse Engineering Basics
             type: markdown
-            filepath: test/example-course/reverse-engineering-basics.md
+            filepath: rapid-cmi5-docs/example-course/reverse-engineering-basics.md
             content: ""
           - display: "# Slide"
             slideTitle: Knowledge Check
             type: markdown
-            filepath: test/example-course/knowledge-check.md
+            filepath: rapid-cmi5-docs/example-course/knowledge-check.md
             content: ""
           - display: "# Slide"
             slideTitle: Practical Lab
             type: markdown
-            filepath: test/example-course/practical-lab.md
+            filepath: rapid-cmi5-docs/example-course/practical-lab.md
             content: ""
         teamSSOEnabled: false
         ksats: []
@@ -114,7 +114,7 @@ blocks:
           blockPadding: medium
     blockDescription: ""
 courseId: https://test
-courseTitle: test
+courseTitle: Rapid CMI5 Docs
 courseDescription: A course for testing rapid cmi5 and showing the different
   courses rapid cmi5 can create.
 rc5Version: 0.0.1
