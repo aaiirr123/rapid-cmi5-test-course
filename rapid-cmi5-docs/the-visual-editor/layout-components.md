@@ -171,33 +171,13 @@ They are great for:
 * Tabs should have concise titles
 * Avoid placing extremely long content in tabs
 
-::::::tabs{style="margin: 4px;"}
-:::::tabContent{title="Overview"}
+:::::tabs{style="margin: 4px;"}
+:::tabContent{title="Overview"}
 Tab 1 Content Goes Here
 
 * Use this tab to display introductory information.
 * You can also next objects within these constructs
-
-::::gridContainer{style="margin: 4px;"}
-:::grid
-**A grid in tabs!**
-
-<img alt="ChatGPT Image Mar 5, 2026, 09_30_59 AM" id="20260305094951-54bbce3c-bc39-4f17-a3e7-8a2b5db79e95" src="./Assets/Images/ChatGPT Image Mar 5, 2026, 09_30_59 AM.png" />
 :::
-
-:::grid{textAlign="center"}
-**RangeOS - Is the best**
-
-<img alt="RangeOS_Logo (1)" id="20260305095016-a2fdba26-d95c-4740-be81-7795b5d1c546" src="./Assets/Images/RangeOS_Logo (1).png" />
-:::
-
-:::grid{textAlign="center"}
-***Another image***
-
-<img width="225" height="327" alt="1" id="20260305095138-d8b4a48b-2a16-4c60-95e3-b30ecd897ec4" src="./Assets/Images/1.png" />
-:::
-::::
-:::::
 
 ::::tabContent{title="Example"}
 Tab 2 Content Goes Here
@@ -214,7 +194,7 @@ Tab 3 Content Goes Here
 
 Additional technical details can be placed here.
 :::
-::::::
+:::::
 
 ***
 

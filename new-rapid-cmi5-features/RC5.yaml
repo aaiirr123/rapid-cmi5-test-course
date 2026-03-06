@@ -28,8 +28,32 @@ blocks:
             type: markdown
             filepath: new-rapid-cmi5-features/new-layouts/grid-layouts.md
             content: ""
+          - display: "# Slide"
+            slideTitle: Steppers
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/steppers.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Animation
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/animation.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Lesson Styling
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/lesson-styling.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Tabs
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/tabs.md
+            content: ""
         teamSSOEnabled: false
         ksats: []
+        lessonTheme:
+          blockPadding: large
+          contentWidth: small
+          defaultAlignment: left
     blockDescription: ""
 courseId: https://new-rapid-cmi5
 courseTitle: New Rapid Cmi5 Features

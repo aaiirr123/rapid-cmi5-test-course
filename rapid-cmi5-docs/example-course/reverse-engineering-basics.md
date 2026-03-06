@@ -63,8 +63,6 @@ RIP (Instruction Pointer) holds the address of the next instruction to execute �
 ::::steps{color="transparent"}
 :::stepContent{title="What is Assembly Language?"}
 Assembly language is a **low-level programming language** that closely corresponds to a computer's **machine code instructions**. Each instruction typically maps directly to a **CPU instruction**.
-
-
 :::
 
 :::stepContent{title="Register Examples"}
@@ -93,8 +91,6 @@ This stores the value `5` in register `EAX`.
 
 :::layout{justifyContent="center" alignItems="flex-start"}
 ## <span style="color: #004d7f;">Finding Vulnerabilities</span>
-
-<img alt="ChatGPT Image Mar 5, 2026, 09_30_59 AM" id="20260305093125-d049a0ee-0d47-4d52-87b2-b138818b0897" src="./Assets/Images/ChatGPT Image Mar 5, 2026, 09_30_59 AM.png" />
 :::
 
 :::::accordion{style="margin: 8px 0;"}
@@ -209,26 +205,6 @@ Over 40% of beginner CTF challenges are solved with `strings` alone. Always star
 ## <span style="color: #004d7f;">Linux Vs. Windows</span>
 :::
 
-::::gridContainer{style="margin: 4px;"}
-:::grid{textAlign="center"}
-Linux
-
-<img alt="0a0eeaa1-a7ad-4b1f-8f9e-5d6d61fbfebd_400x599" id="20260305093941-0e378beb-47b2-4e8a-be18-110feb9b3a22" src="./Assets/Images/0a0eeaa1-a7ad-4b1f-8f9e-5d6d61fbfebd_400x599.jpg" />
-:::
-
-:::grid{textAlign="center"}
-Windows
-
-<img alt="1" id="20260305094017-77bb1184-de06-477b-8b33-594e590bdadb" src="./Assets/Images/1.png" />
-:::
-::::
-
-:::layout{justifyContent="center" alignItems="flex-start"}
-### <span style="color: #004d7f;">Summary of Differences</span>
-:::
-
-<table class="rc5-table"><thead><tr><th style="background-color: transparent">Category</th><th style="background-color: transparent">Linux</th><th style="background-color: transparent">Windows</th></tr></thead><tbody><tr><td style="background-color: transparent">Typical Binary Format</td><td style="background-color: transparent">ELF (Executable and Linkable Format)</td><td style="background-color: transparent">PE (Portable Executable)</td></tr><tr><td style="background-color: transparent">Common Disassemblers</td><td style="background-color: transparent">Ghidra, Radare2, objdump, Hopper</td><td style="background-color: transparent">IDA Pro, Ghidra, x64dbg, Binary Ninja</td></tr><tr><td style="background-color: transparent">Debuggers</td><td style="background-color: transparent">gdb, pwndbg, gef, lldb</td><td style="background-color: transparent">WinDbg, x64dbg, OllyDbg</td></tr><tr><td style="background-color: transparent">System Libraries</td><td style="background-color: transparent">glibc, musl</td><td style="background-color: transparent">Windows API (kernel32.dll, user32.dll, ntdll.dll)</td></tr><tr><td style="background-color: transparent">Symbol Inspection</td><td style="background-color: transparent">, , </td><td style="background-color: transparent">Dependency Walker, dumpbin</td></tr><tr><td style="background-color: transparent">Process Inspection</td><td style="background-color: transparent">, , </td><td style="background-color: transparent">Process Monitor, Process Explorer</td></tr><tr><td style="background-color: transparent">Kernel Interaction</td><td style="background-color: transparent"> filesystem, ptrace</td><td style="background-color: transparent">Windows kernel debugging, KD</td></tr><tr><td style="background-color: transparent">Dynamic Analysis</td><td style="background-color: transparent">gdb + ptrace, ltrace, strace</td><td style="background-color: transparent">WinDbg, x64dbg, API monitors</td></tr><tr><td style="background-color: transparent">Malware Targeting</td><td style="background-color: transparent">Less common but growing (servers, IoT)</td><td style="background-color: transparent">Very common (desktop malware)</td></tr><tr><td style="background-color: transparent">System Call Analysis</td><td style="background-color: transparent">Visible via </td><td style="background-color: transparent">Requires kernel debugging or tracing tools</td></tr><tr><td style="background-color: transparent">Obfuscation Techniques</td><td style="background-color: transparent">Packers, stripped symbols</td><td style="background-color: transparent">Packers, obfuscation, anti-debugging</td></tr><tr><td style="background-color: transparent">Anti-Debug Techniques</td><td style="background-color: transparent">ptrace detection</td><td style="background-color: transparent">IsDebuggerPresent, NtQueryInformationProcess</td></tr><tr><td style="background-color: transparent">Binary Patching</td><td style="background-color: transparent">Hex editors, radare2, Ghidra</td><td style="background-color: transparent">x64dbg patching, IDA patching</td></tr><tr><td style="background-color: transparent">Memory Analysis</td><td style="background-color: transparent">, gdb</td><td style="background-color: transparent">WinDbg, volatility</td></tr><tr><td style="background-color: transparent">Open Source Tools</td><td style="background-color: transparent">Very strong ecosystem</td><td style="background-color: transparent">More commercial tools</td></tr><tr><td style="background-color: transparent">Typical Workflow</td><td style="background-color: transparent">Analyze ELF → disassemble → debug with gdb</td><td style="background-color: transparent">Analyze PE → disassemble → debug with WinDbg/x64dbg</td></tr></tbody></table>
-
 ***
 
 :::layout{justifyContent="center" alignItems="flex-start"}
@@ -319,7 +295,7 @@ Bypass: Dump process memory using gdb's `dump memory` command after decryption c
 
 Before touching any tool, answer these questions:
 
-<table class="rc5-table"><thead><tr><th style="background-color: transparent">Question</th><th style="background-color: transparent">Command</th></tr></thead><tbody><tr><td style="background-color: transparent">What OS is this targeting?</td><td style="background-color: transparent"><code>file malware.bin</code></td></tr><tr><td style="background-color: transparent">Is it packed?</td><td style="background-color: transparent"><code>strings malware.bin | wc -l</code> (low count = likely packed)</td></tr><tr><td style="background-color: transparent">What architecture?</td><td style="background-color: transparent"><code>file malware.bin</code> or <code>binwalk malware.bin</code></td></tr><tr><td style="background-color: transparent">Any known signatures?</td><td style="background-color: transparent">Upload hash to VirusTotal</td></tr><tr><td style="background-color: transparent">Embedded files?</td><td style="background-color: transparent"><code>binwalk -e malware.bin</code></td></tr></tbody></table>
+<table class="rc5-table"><thead><tr><th style="background-color: transparent">Question</th><th style="background-color: transparent">Command</th></tr></thead><tbody><tr><td style="background-color: transparent">What OS is this targeting?</td><td style="background-color: transparent"></td></tr><tr><td style="background-color: transparent">Is it packed?</td><td style="background-color: transparent"> (low count = likely packed)</td></tr><tr><td style="background-color: transparent">What architecture?</td><td style="background-color: transparent"> or </td></tr><tr><td style="background-color: transparent">Any known signatures?</td><td style="background-color: transparent">Upload hash to VirusTotal</td></tr><tr><td style="background-color: transparent">Embedded files?</td><td style="background-color: transparent"></td></tr></tbody></table>
 
 Always compute the SHA256 hash first: `sha256sum malware.bin`
 
@@ -342,7 +318,7 @@ objdump -p malware.exe | grep -A 100 "DLL Name"
 
 Key imports to watch for:
 
-<table class="rc5-table"><thead><tr><th style="background-color: transparent">Import</th><th style="background-color: transparent">Suggests</th></tr></thead><tbody><tr><td style="background-color: transparent"><code>CreateRemoteThread</code></td><td style="background-color: transparent">Process injection</td></tr><tr><td style="background-color: transparent"><code>VirtualAllocEx</code></td><td style="background-color: transparent">Shellcode injection</td></tr><tr><td style="background-color: transparent"><code>RegSetValueEx</code></td><td style="background-color: transparent">Persistence via registry</td></tr><tr><td style="background-color: transparent"><code>InternetOpenUrl</code></td><td style="background-color: transparent">C2 communication</td></tr><tr><td style="background-color: transparent"><code>CryptEncrypt</code></td><td style="background-color: transparent">Ransomware behavior</td></tr></tbody></table>
+<table class="rc5-table"><thead><tr><th style="background-color: transparent">Import</th><th style="background-color: transparent">Suggests</th></tr></thead><tbody><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Process injection</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Shellcode injection</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Persistence via registry</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">C2 communication</td></tr><tr><td style="background-color: transparent"></td><td style="background-color: transparent">Ransomware behavior</td></tr></tbody></table>
 
 ***
 
@@ -369,10 +345,6 @@ inotifywait -m -r /tmp /home &
 
 > Take a VM snapshot **before** executing. If the malware corrupts the environment, you can restore in seconds.
 
-
-
-
-
 ::::gridContainer{style="margin: 4px;"}
 :::grid
 <img alt="1_8_XcK-4JejVJIpccI8TJow" id="20260305165031-bf2cb9fa-9488-4b52-92b1-f147966c0746" src="./Assets/Images/1_8_XcK-4JejVJIpccI8TJow.jpg" />
@@ -384,8 +356,6 @@ inotifywait -m -r /tmp /home &
 **Wireshark** is a powerful open-source network protocol analyzer used to capture and inspect network traffic in real time. It allows cybersecurity professionals, network engineers, and researchers to examine individual packets traveling across a network, helping them *troubleshoot connectivity issues, analyze protocols, and detect potential security threats*. By breaking down packets into detailed protocol fields, Wireshark provides deep visibility into how data moves through a network.
 :::
 ::::
-
-
 
 ***
 
@@ -461,8 +431,8 @@ All protections on means harder exploitation. No canary and no NX means a classi
 
 ### Quick Wins Checklist
 
-* [ ] Hardcoded strings or base64
-* [ ] Hardcoded comparison (`cmp eax, 0x1337`)
-* [ ] Predictable random seed (`srand(time(0))`)
-* [ ] strcmp vs strncmp off-by-one
-* [ ] Format string passed directly to printf
+* Hardcoded strings or base64
+* Hardcoded comparison (`cmp eax, 0x1337`)
+* Predictable random seed (`srand(time(0))`)
+* strcmp vs strncmp off-by-one
+* Format string passed directly to printf
