@@ -1,0 +1,27 @@
+blocks:
+  - blockName: new-rapid-cmi5-features
+    aus:
+      - auName: New Layouts
+        dirPath: new-rapid-cmi5-features/new-layouts
+        slides:
+          - slideTitle: Accordions
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/accordions.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Image Labels
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/image-labels.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Auto Play For Video and Audio
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/auto-play-for-video-and-audio.md
+            content: ""
+        teamSSOEnabled: false
+        ksats: []
+    blockDescription: ""
+courseId: https://new-rapid-cmi5
+courseTitle: New Rapid Cmi5 Features
+courseDescription: New features added to rapid cmi5 you should check out
+rc5Version: 0.0.1
