@@ -14,9 +14,14 @@ blocks:
             filepath: new-rapid-cmi5-features/new-layouts/image-labels.md
             content: ""
           - display: "# Slide"
-            slideTitle: Auto Play For Video and Audio
+            slideTitle: Auto Play Videos
             type: markdown
-            filepath: new-rapid-cmi5-features/new-layouts/auto-play-for-video-and-audio.md
+            filepath: new-rapid-cmi5-features/new-layouts/auto-play-videos.md
+            content: ""
+          - display: "# Slide"
+            slideTitle: Auto Play Audio
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/auto-play-audio.md
             content: ""
         teamSSOEnabled: false
         ksats: []
