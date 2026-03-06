@@ -23,6 +23,11 @@ blocks:
             type: markdown
             filepath: new-rapid-cmi5-features/new-layouts/auto-play-audio.md
             content: ""
+          - display: "# Slide"
+            slideTitle: Grid Layouts
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/grid-layouts.md
+            content: ""
         teamSSOEnabled: false
         ksats: []
     blockDescription: ""
