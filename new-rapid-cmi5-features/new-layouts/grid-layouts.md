@@ -24,6 +24,10 @@ Aliquam porttitor nisi a est gravida, vel faucibus odio tempus. Duis ac metus di
 
 ## Grids With Images
 
+
+
+
+
 ::::gridContainer{style="margin: 4px;"}
 :::grid
 **Title of content to go with image**
@@ -42,5 +46,27 @@ You can even continue writing underneath your images
 
 Some more discussion around the image can also happen here.
 You are able to add in image or columns of text any way you see fit
+:::
+::::
+
+::::gridContainer{style="margin: 4px;"}
+:::grid{textAlign="center"}
+these content
+:::
+
+:::grid{textAlign="center"}
+Grid Content Goes Here
+
+
+
+t
+
+t
+
+t
+
+t
+
+
 :::
 ::::

@@ -1,7 +1,7 @@
 # Tabs
 
 ::::tabs
-:::tabContent{title="Tab 1 Title"}
+:::tabContent{title="my tab name"}
 Tab 1 Content Goes Here
 
 You can write **anything** you want here

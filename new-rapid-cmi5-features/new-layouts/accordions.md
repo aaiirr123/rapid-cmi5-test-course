@@ -1,8 +1,8 @@
 # The Accordion&#x20;
 
-:::::accordion{style="margin: 4px;"}
+:::::accordion{color="transparent"}
 ::::accordionContent{title="Accordion 1 Title"}
-Accordion 1 Content Goes Here
+**Accordion** 1 Content Goes Here
 
 <img width="299" height="299" alt="1_8_XcK-4JejVJIpccI8TJow" id="20260305204437-a68f4cef-b46d-40bb-b0be-cf765b29a6b4" src="./Assets/Images/1_8_XcK-4JejVJIpccI8TJow.jpg" />
 
@@ -21,5 +21,9 @@ Centered text using a layout box
 
 :::accordionContent{title="Accordion 3 Title" textAlign="center"}
 Accordion 3 Content Goes Here
+:::
+
+:::accordionContent{title="My new tab"}
+New Accordion Content
 :::
 :::::

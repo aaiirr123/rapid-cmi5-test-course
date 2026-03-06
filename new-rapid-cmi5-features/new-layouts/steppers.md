@@ -38,4 +38,22 @@ What is the difference between **symmetric** and **asymmetric** encryption?
 Symmetric encryption is **faster**, while asymmetric encryption
 is commonly used for **key exchange and authentication**.
 :::
+
+:::stepContent{title="New Step"}
+New Step Content
+:::
+::::
+
+::::steps{style="margin: 4px;"}
+:::stepContent{title="Step 1 Title"}
+Step 1 Content Goes Here
+:::
+
+:::stepContent{title="Step 2 Title"}
+Step 2 Content Goes Here
+:::
+
+:::stepContent{title="Step 3 Title"}
+Step 3 Content Goes Here
+:::
 ::::
