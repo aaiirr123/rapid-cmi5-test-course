@@ -13,6 +13,10 @@ blocks:
             type: markdown
             filepath: new-rapid-cmi5-features/new-layouts/image-labels.md
             content: ""
+          - slideTitle: Slide 3
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/slide-3.md
+            content: ""
           - display: "# Slide"
             slideTitle: Auto Play Videos
             type: markdown
@@ -61,4 +65,4 @@ courseDescription: New features added to rapid cmi5 you should check out
 rc5Version: 0.14.0
 remoteGitUrl: git@github.com:aaiirr123/rapid-cmi5-test-course.git
 gitBranch: main
-buildTime: 2026-05-11T16:29:49.722Z
+buildTime: 2026-05-11T16:30:29.496Z
