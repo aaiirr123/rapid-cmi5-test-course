@@ -9,6 +9,10 @@ blocks:
             type: markdown
             filepath: rapid-cmi5-docs/introduction/what-is-rapid-cmi5.md
             content: ""
+          - slideTitle: Slide 2
+            type: markdown
+            filepath: rapid-cmi5-docs/introduction/slide-2.md
+            content: ""
           - display: "# Slide"
             slideTitle: Desktop vs. Web
             type: markdown
@@ -113,8 +117,11 @@ blocks:
           contentWidth: medium
           blockPadding: medium
     blockDescription: ""
-courseId: https://test
+courseId: https://test/ea504f06-1365-4967-95aa-58c65a6d9d62
 courseTitle: Rapid CMI5 Docs
 courseDescription: A course for testing rapid cmi5 and showing the different
   courses rapid cmi5 can create.
-rc5Version: 0.0.1
+rc5Version: 0.14.0
+remoteGitUrl: https://github.com/aaiirr123/rapid-cmi5-test-course.git
+gitBranch: main
+buildTime: 2026-05-16T15:23:02.531Z
