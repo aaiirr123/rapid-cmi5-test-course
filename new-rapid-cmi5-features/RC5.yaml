@@ -8,6 +8,10 @@ blocks:
             type: markdown
             filepath: new-rapid-cmi5-features/new-layouts/accordions.md
             content: ""
+          - slideTitle: Slide 2
+            type: markdown
+            filepath: new-rapid-cmi5-features/new-layouts/slide-2.md
+            content: ""
           - display: "# Slide"
             slideTitle: Image Labels
             type: markdown
@@ -65,4 +69,4 @@ courseDescription: New features added to rapid cmi5 you should check out
 rc5Version: 0.14.0
 remoteGitUrl: https://github.com/aaiirr123/rapid-cmi5-test-course.git
 gitBranch: main
-buildTime: 2026-05-17T12:52:46.149Z
+buildTime: 2026-05-17T20:47:53.540Z
