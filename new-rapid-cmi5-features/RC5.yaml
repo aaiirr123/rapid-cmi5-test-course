@@ -63,6 +63,6 @@ courseId: https://new-rapid-cmi5/cbb5d786-db41-435e-8f23-896435db08bb
 courseTitle: New Rapid Cmi5 Features
 courseDescription: New features added to rapid cmi5 you should check out
 rc5Version: 0.14.0
-remoteGitUrl: git@github.com:aaiirr123/rapid-cmi5-test-course.git
+remoteGitUrl: https://github.com/aaiirr123/rapid-cmi5-test-course.git
 gitBranch: main
-buildTime: 2026-05-11T16:30:29.496Z
+buildTime: 2026-05-17T12:52:46.149Z
